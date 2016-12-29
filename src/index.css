@@ -3,3 +3,26 @@ body {
   padding: 0;
   font-family: sans-serif;
 }
+
+.schools {
+	margin: auto;
+	text-align: center;
+}
+
+.floatLeft {
+	float: left;
+}
+
+h1 {
+	text-align: left;
+}
+
+table {
+	margin: auto;
+	border-style: solid;
+	border-radius: 20px;
+}
+
+td {
+	width: 40vw;
+}
