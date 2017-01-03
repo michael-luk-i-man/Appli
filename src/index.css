@@ -17,6 +17,10 @@ h1 {
 	text-align: left;
 }
 
+img {
+	border-radius: 50%;
+}
+
 table {
 	margin: auto;
 	border-style: solid;
