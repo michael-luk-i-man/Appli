@@ -1,5 +1,24 @@
 import React, { Component } from 'react';
-var testSchoolsData = require('../../test/testSchoolsData.js');
+import testSchoolsData from '../test/testSchoolsData'
+// const testSchoolsData = [
+//   {
+//     logo: 'hi',
+//     name: 'hi',
+//     program:'hi',
+//     progress:'hi'
+//   },
+//   {
+//     logo: 'hi',
+//     name: 'hi',
+//     program:'hi',
+//     progress:'hi'
+//   },
+//   {
+//     logo: 'hi',
+//     name: 'hi',
+//     program:'hi',
+//     progress:'hi'
+//   }];
 
 class Me extends Component {
   render() {
@@ -16,20 +35,19 @@ class Me extends Component {
     );
   }
 
-createSchoolsTable() {
+  createSchoolsTable() {
+    return testSchoolsData.map( school => {
+      return (
+        <tr>
+          <td><img src={school.logo}></img></td>
+          <td>{school.name}</td>
+          <td>{school.program}</td>
+          <td>{school.progress}</td>
+        </tr>
+      );
+    })
 
-  return testSchoolsData.map( school => {
-    return (
-      <tr>
-        <td><img src={school.logo}></img></td>
-        <td>{school.name}</td>
-        <td>{school.program}</td>
-        <td>{school.progress}</td>
-      </tr>
-    );
-  }).join('')
-
-}
+  }
 
 
 
