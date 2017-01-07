@@ -39,7 +39,7 @@ class Me extends Component {
     return testSchoolsData.map( school => {
       return (
         <tr>
-          <td><img src={school.logo}></img></td>
+          <td><img width="300" src={school.logo}></img></td>
           <td>{school.name}</td>
           <td>{school.program}</td>
           <td>{school.progress}</td>

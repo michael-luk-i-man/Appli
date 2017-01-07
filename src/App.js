@@ -3,6 +3,7 @@ import logo from './logo.jpg';
 import './App.css';
 import Me from './components/Me'
 import Schools from './components/Schools'
+import Recs from './components/Recs'
 
 class App extends Component {
   render() {
@@ -16,6 +17,7 @@ class App extends Component {
             <Me />       </p>
 
         <div id='schools'><Schools /></div>
+        <div id='schools'><Recs /></div>
       </div>
     );
   }

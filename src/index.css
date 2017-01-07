@@ -21,6 +21,10 @@ img {
 	border-radius: 50%;
 }
 
+table img {
+	border-radius: 0;
+}
+
 table {
 	margin: auto;
 	border-style: solid;
