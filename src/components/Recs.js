@@ -9,7 +9,7 @@ class Me extends Component {
         <h1>My Schools</h1>
               <div class="school">
                 <table>
-                { this.createSchoolsTable() }
+                { this.createRecsTable() }
 
                 </table>
                 </div>
@@ -17,16 +17,16 @@ class Me extends Component {
     );
   }
 
-  createSchoolsTable() {
-    return testSchoolsData.map( school => {
+  createRecsTable() {
+    return testRecsData.map( recr => {
       return (
         <tr>
-          <td><img width="300" src={school.logo}></img></td>
-          <td>{school.name}</td>
-          <td>{school.program}</td>
-          <td>{school.progress}</td>
+          <td><img width="300" src={recr.avtr}></img></td>
+          <td>{recr.name}</td>
+          <td>{recr.schools.UniversityofCaliforniaIrvine}</td>
+          <td>{recr.schools.UniversityofCaliforniaSantaBarbara}</td>
         </tr>
       );
-    })
+    }
 
-  }
+  )}}
