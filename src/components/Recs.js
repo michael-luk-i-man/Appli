@@ -2,12 +2,12 @@ import React, { Component } from 'react';
 import testRecsData from '../test/testRecsData'
 
 
-class Me extends Component {
+class Recs extends Component {
   render() {
     return (
-      <div className="Schools">
-        <h1>My Schools</h1>
-              <div class="school">
+      <div className="Recs">
+        <h1>My Recs</h1>
+              <div class="recr">
                 <table>
                 { this.createRecsTable() }
 
@@ -21,7 +21,7 @@ class Me extends Component {
     return testRecsData.map( recr => {
       return (
         <tr>
-          <td><img width="300" src={recr.avtr}></img></td>
+          <td><img role="presentation" width="300" src={recr.avtr}></img></td>
           <td>{recr.name}</td>
           <td>{recr.schools.UniversityofCaliforniaIrvine}</td>
           <td>{recr.schools.UniversityofCaliforniaSantaBarbara}</td>
@@ -30,3 +30,5 @@ class Me extends Component {
     }
 
   )}}
+
+    export default Recs;

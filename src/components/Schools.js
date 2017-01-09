@@ -20,7 +20,7 @@ import testSchoolsData from '../test/testSchoolsData'
 //     progress:'hi'
 //   }];
 
-class Me extends Component {
+class Schools extends Component {
   render() {
     return (
       <div className="Schools">
@@ -39,7 +39,7 @@ class Me extends Component {
     return testSchoolsData.map( school => {
       return (
         <tr>
-          <td><img width="300" src={school.logo}></img></td>
+          <td><img role="presentation" width="300" src={school.logo}></img></td>
           <td>{school.name}</td>
           <td>{school.program}</td>
           <td>{school.progress}</td>
@@ -53,4 +53,4 @@ class Me extends Component {
 
 }
 
-export default Me;
+export default Schools;
