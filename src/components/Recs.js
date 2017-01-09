@@ -23,8 +23,9 @@ class Recs extends Component {
         <tr>
           <td><img role="presentation" width="300" src={recr.avtr}></img></td>
           <td>{recr.name}</td>
-          <td>{recr.schools.UniversityofCaliforniaIrvine}</td>
-          <td>{recr.schools.UniversityofCaliforniaSantaBarbara}</td>
+          <td>{recr.schools["UniversityofCaliforniaIrvine"]}</td>
+          <td>{recr.schools["UniversityofCaliforniaSantaBarbara"]}</td>
+          <td>{recr.schools["ColumbiaUniversity"]}</td>
         </tr>
       );
     }

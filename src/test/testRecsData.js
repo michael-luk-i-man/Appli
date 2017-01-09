@@ -4,15 +4,15 @@ export default [
 				{
 					"UniversityofCaliforniaIrvine": "Started",
 					"UniversityofCaliforniaSantaBarbara": "Complete",
-					"Columbia University": "To Start",
+					"ColumbiaUniversity": "To Start"
 				}
 			},
 			{
 				name: "Mr. Recommender 2", schools:
 				{
 					"UniversityofCaliforniaIrvine": "Started",
-					"UniversityofCaliforniaSanta Barbara":"Complete",
-					"ColumbiaUniversity": "Started",
+					"UniversityofCaliforniaSantaBarbara":"Complete",
+					"ColumbiaUniversity": "Started"
 				}
 			},
 			{
@@ -20,7 +20,7 @@ export default [
 				{
 					"UniversityofCaliforniaIrvine": "To Start",
 					"UniversityofCaliforniaSantaBarbara": "To Start",
-					"ColumbiaUniversity":"Started",
+					"ColumbiaUniversity":"Started"
 				}
 			}
 
