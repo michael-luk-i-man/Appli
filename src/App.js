@@ -18,6 +18,13 @@ class App extends Component {
 
         <div id='schools'><Schools /></div>
         <div id='recs'><Recs /></div>
+       <div className="App-header" id="footer">
+          <img src={logo} className="App-logo" alt="logo" />
+          <div>
+          <a href="#home">About</a>
+          <a href="#contact">Contact</a>
+          <a href="#settings">Settings</a></div>
+        </div>
       </div>
     );
   }

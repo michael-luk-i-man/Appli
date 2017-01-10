@@ -15,10 +15,12 @@ body {
 
 h1 {
 	text-align: left;
+	padding-left: 30px;
 }
 
 img {
 	border-radius: 50%;
+
 }
 
 table img {
@@ -27,10 +29,21 @@ table img {
 
 table {
 	margin: auto;
+	margin-left: 3vw;
+	margin-right: 3vw;
 	border-style: solid;
 	border-radius: 20px;
 }
 
 td {
 	width: 40vw;
+}
+
+#footer {
+	margin-top: 40px;
+}
+
+a {
+	color: #666;
+	padding-right: 5px;
 }
